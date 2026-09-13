@@ -9,7 +9,7 @@ export default function UIOverlay() {
       <header className="pointer-events-auto flex w-full items-center justify-between p-6 relative z-50">
         <div className="flex items-center gap-3 rounded-2xl bg-white/10 p-4 backdrop-blur-md border border-white/20 shadow-xl">
           <img 
-            src="/logo.png" 
+            src="logo.png" 
             alt="Logo da Empresa" 
             className={`h-10 w-auto object-contain drop-shadow-md ${logoError ? 'hidden' : 'block'}`}
             onError={() => setLogoError(true)}
